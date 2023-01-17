@@ -39,9 +39,10 @@ Kafka - Producer
 
 4. membuat producer dan consumer dengan java :
 
-
 4.1. tambahkan dependency kafka client, can see doc [here](https://kafka.apache.org/33/javadoc/index.html?org/apache/kafka/clients/producer/KafkaProducer.html)
-4.1. create class producer, create main method : 
+
+4.1. create class producer, create main method
+
 4.2. bila belum memiliki class consumer bisa run consumer dengan console consumer kafka seperti perintah di point 3.4
 
 
