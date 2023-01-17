@@ -36,7 +36,7 @@ Kafka - Producer
 	
 	- command --from-beginning adalah optional untuk melihat keseluruhan data yang sudah di produce dari awal
 
---
+## 
 
 
 4. membuat producer dan consumer dengan java :
@@ -47,7 +47,7 @@ Kafka - Producer
 
 4.2. bila belum memiliki class consumer bisa run consumer dengan console consumer kafka seperti perintah di point 3.4
 
---
+## 
 
 
 
