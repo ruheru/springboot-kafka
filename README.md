@@ -34,14 +34,14 @@ Kafka - Producer
 3.4. membuat consumer :
 	.\bin\windows\kafka-console-consumer.bat --topic testfirst-topic --from-beginning --bootstrap-server localhost:9092
 	
-	- command --from-beginning adalah optional untuk melihat keseluruhan data yang sudah di produce dari awal
+  - command --from-beginning adalah optional untuk melihat keseluruhan data yang sudah di produce dari awal
 
 ## 
 
 
-4. membuat producer dan consumer dengan java :
+4. membuat producer dengan java, can see [doc producer](https://kafka.apache.org/documentation/#producerapi)
 
-4.1. tambahkan dependency kafka client, can see doc [here](https://kafka.apache.org/33/javadoc/index.html?org/apache/kafka/clients/producer/KafkaProducer.html)
+4.1. tambahkan dependency kafka client
 
 4.1. create class producer, create main method
 
@@ -49,6 +49,13 @@ Kafka - Producer
 
 ## 
 
+5. membuat consumer dengan java, can see [doc consumer](https://kafka.apache.org/documentation/#consumerapi)
+
+5.1 tambahkan dependency kafka client, (sama seperti producer
+
+5.2 create class consumer, code,  and run
+
+5.3 run class producer, dan lihat log class consumer
 
 
 
